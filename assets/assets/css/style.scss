@@ -1,0 +1,103 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+#logo {
+    border: none;
+    box-shadow: none;
+    -web-kit-box-shadow: none;
+    display: block;
+    margin: 0 auto;
+}
+
+#project_title {
+    text-align: center;
+    font-size: 26px;
+}
+
+#project_tagline {
+    text-align: center;
+    font-size: 16px;
+}
+
+
+header.inner {
+    margin-bottom: 0;
+    padding-bottom: 0px;
+}
+#header_wrap {
+    padding: 0px;
+}
+
+#header_wrap .inner {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+a {
+    font-weight: bold;
+}
+
+
+
+#main_content_wrap {
+    border-top: none;
+}
+
+nav ul {
+    padding: 0px;
+    margin: 0px;
+    height: 40px;
+    list-style-type: none;
+    margin: 0;
+    background-color: #212121;
+    overflow: hidden;
+    padding: 0;
+}
+
+nav ul li {
+    font-size: 18px;
+    float: left;
+    padding: 10px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    height: 40px;
+    padding:0;
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+nav ul li a:hover{
+    font-weight: normal;
+}
+
+nav ul li.active {
+    background: #f2f2f2;
+    z-index: 250;
+}
+
+nav ul li.active a {
+    color: #0090ff;
+    text-decoration:none;
+    font-weight: normal;
+}
+
+nav ul li.active a:hover {
+    text-decoration: none;
+    font-weight:normal;
+}
+
+
+#header_wrap {
+    background: #212121;
+    background: -moz-linear-gradient(top, #373737, #212121);
+    background: -webkit-linear-gradient(top, #373737, #212121);
+    background: -ms-linear-gradient(top, #373737, #212121);
+    background: -o-linear-gradient(top, #373737, #212121);
+    background: linear-gradient(top, #373737, #212121);
+}
