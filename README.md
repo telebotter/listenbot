@@ -15,6 +15,7 @@ You should add me to your contact list before creating your first todo list.
 - Rename it to something meaningfull
 - Invite me
 - Give me admin permissions (all users are admins will not work)
+
 [Step by step tutorial with screenshots](https://github.com/)
 
 
