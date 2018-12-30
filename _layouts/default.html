@@ -31,26 +31,14 @@
           <!-- nav menu --->
           <nav id="main-menu">
           <ul>
-              {% if page.title == 'Start' %}
-              <li class="active"><a href="https://telebotter.github.io/listenbot/">Start</a></li>
+              <li {% if page.title == 'Start' %} class="active"{% endif %} >
+                  <a href="https://telebotter.github.io/listenbot/">Start</a>
+              </li>
               {% else %}
               <li><a href="https://telebotter.github.io/listenbot/">Start</a></li>
-              {% endif %}
               <li {% if page.title == 'Create List' %} class="active" {% endif %}>
                 <a href="https://telebotter.github.io/listenbot/create_list.html">Create List</a>
               </li>
-<!--->
-              {% if page.title == 'Mithelfen' %}
-              <li class="active"><a href="https://telebotter.github.io/listenbot/help.html">Mithelfen</a></li>
-              {% else %}
-              <li><a href="https://telebotter.github.io/listenbot/help.html">Mithelfen</a></li>
-              {% endif %}
-              {% if page.title == 'Kontakt' %}
-              <li class="active"><a href="https://telebotter.github.io/listenbot/contact.html">Kontakt</a><li>
-                {% else %}
-              <li><a href="https://telebotter.github.io/listenbot/contact.html">Kontakt</a><li>
-                {% endif %}
-</!--->
           </ul>
           </nav>
         </header>
