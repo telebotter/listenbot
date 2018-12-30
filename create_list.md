@@ -1,6 +1,7 @@
 ---
 title: Create List
 group: main
+layout: default
 ---
 
 ## Step by Step Guide

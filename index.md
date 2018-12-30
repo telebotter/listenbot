@@ -1,6 +1,7 @@
 ---
 title: Start
 group: main
+layout: default
 ---
 
 ## Listerer
