@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+## Listerer
 
-You can use the [editor on GitHub](https://github.com/telebotter/listenbot/edit/gh-pages/README.md) to maintain and preview the content for your website in Markdown files.
+I'm a telegram bot designed to provide simple check lists for any purpose. To handle more than one list per user and make them easy to share and organize I prever to use a new private group for each list. Once the group is created any message will be converted to a button in seconds and will be removed on click. To share lists with friends and collegues just invite them to the group.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Add me
 
-```markdown
-Syntax highlighted code block
+You should add me to your contact list before creating your first todo list.
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+### Create new Lists
 
-1. Numbered
-2. List
+- Create new group (supergroups not supported yet)
+- Rename it to something meaningfull
+- Invite me
+- Give me admin permissions (all users are admins will not work)
+[Step by step tutorial with screenshots](https://github.com/)
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+### Permissions and Privacy
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+I'm using a database to store messages user id's and user names such as the title/name of each group without additional encryption. I need to be admin in the group to keep the chat history clean by removing processed messages from all users and bots. My goal is to keep one message containing the check list up to date and remove everything else. Don't invite me to groups you use for conversation, since I'll start to remove messages if you give me permissions (for each group).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/telebotter/listenbot/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+For questions and bug reports feel free to create an Issues on GitHub or send me an e-mail.
